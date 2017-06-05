@@ -15,7 +15,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  *
  * (c) Api Postcode <info@api-postcode.nl>
  */
-class ApiPostcodePostcodeBundle extends Bundle
+class ApiPostcodeBundle extends Bundle
 {
 
 }
