@@ -2,4 +2,4 @@ services:
     api.postcode:
       class: ApiPostcode\Client\PostcodeClient
       arguments:
-          - "%postcode_api_key%"
+          - "%api_postcode_key%"
