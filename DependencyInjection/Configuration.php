@@ -24,7 +24,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('api_postcode_postcode');
+        $rootNode = $treeBuilder->root('api_postcode');
 
         $rootNode->children()
             ->arrayNode('api_postcode')->isRequired()->children()
