@@ -27,9 +27,7 @@ class Configuration implements ConfigurationInterface
         $rootNode = $treeBuilder->root('api_postcode');
 
         $rootNode->children()
-            ->arrayNode('api_postcode')->isRequired()->children()
                 ->scalarNode('token')->isRequired()->end()
-                ->end()
             ->end();
 
         return $treeBuilder;
