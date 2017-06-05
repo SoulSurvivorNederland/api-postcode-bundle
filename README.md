@@ -49,7 +49,7 @@ api_postcode:
 Usage Services
 --------------
 ``` php
-$address = $this->get('api.postcode')->getAddress('1012JS', 1);
+$address = $this->get('api.postcode')->fetchAddress('1012JS', 1);
 	
 $address->getStreet();      // Dam
 $address->getCity();        // Amsterdam
