@@ -1,5 +1,5 @@
 services:
-    api.postcode.client:
-      class: ApiPostcode\Client
+    api.postcode:
+      class: ApiPostcode\Client\PostcodeClient
       arguments:
           - "%postcode_api_key%"
