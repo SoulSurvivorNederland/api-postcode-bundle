@@ -1,0 +1,28 @@
+{
+    "name": "api-postcode/api-postcode-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Api Postcode bundle",
+    "keywords": ["Postcode", "Bundle", "Symfony", "Zipcode", "Address", "postcode-api"],
+    "homepage": "https://api-postcode.nl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Api Postcode",
+            "email": "info@api-postcode.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/framework-bundle": "^2.7 || ^3.0",
+        "api-postcode/php-client": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "matthiasnoback/symfony-dependency-injection-test": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiPostcode\\PostcodeBundle\\": ""
+        }
+    }
+}
