@@ -28,7 +28,7 @@ class ApiPostcodeExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $container->setParameter('postcode_api_key', $config['api_postcode']['token']);
+        $container->setParameter('api_postcode_key', $config['token']);
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
         $loader->load('services.yml');
