@@ -14,11 +14,11 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
 /**
- * Class UsoftPostcodeExtension
+ * Class ApiPostcodeExtension
  *
  * (c) Api Postcode <info@api-postcode.nl>
  */
-class ApiPostcodePostcodeExtension extends Extension
+class ApiPostcodeExtension extends Extension
 {
     /**
      * {@inheritdoc}
