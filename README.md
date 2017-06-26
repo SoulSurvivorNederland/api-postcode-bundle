@@ -2,6 +2,7 @@ Api Postcode Bundle
 ===================
 
 This bundle can be useed to fetch Address details from zipcode with number.
+See: https://api-postcode.nl for more information.
 
 Installation
 ------------
