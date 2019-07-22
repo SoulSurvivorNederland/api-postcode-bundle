@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "symfony/framework-bundle": "^2.7 || ^3.0",
+        "symfony/framework-bundle": "^2.7 || ^3.0 || ^4.0",
         "api-postcode/php-client": "^1.0"
     },
     "require-dev": {
