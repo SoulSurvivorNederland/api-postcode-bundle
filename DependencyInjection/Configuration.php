@@ -23,8 +23,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('api_postcode');
+        $treeBuilder = new TreeBuilder('api_postcode');
+        $rootNode = $treeBuilder->getRootNode();
 
         $rootNode->children()
                 ->scalarNode('token')->isRequired()->end()
