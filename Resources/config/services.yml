@@ -3,3 +3,6 @@ services:
       class: ApiPostcode\Client\PostcodeClient
       arguments:
           - "%api_postcode_key%"
+
+    ApiPostcode\Client\PostcodeClient:
+      alias: api.postcode
